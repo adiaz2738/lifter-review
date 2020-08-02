@@ -8,5 +8,35 @@
 
 /* Main text styling */
 h1{
-    font-family: "Oswald";
+    font-family: "Bebas Neue";
+    text-align: center;
+    color: white;
+}
+
+
+/* Header styling */
+header{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color: black;
+}
+
+.header-logo{
+    display: flex;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.logo-container{
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+}
+
+.logo-container img{
+    display: flex;
+    height: 100%;
 }
