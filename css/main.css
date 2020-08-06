@@ -64,6 +64,14 @@ h1{
     text-shadow: var(--shadow-black);
 }
 
+.section-heading{
+    font-family: "Bebas Neue";
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
 .main-txt{
     font-family: "Century Gothic";
     font-size: 18px;
@@ -83,6 +91,26 @@ h1{
     font-size: 15px;
 }
 
+.title-txt{
+    font-family: "Century Gothic";
+    font-size: 25px;
+    color: black;
+}
+
+/* Basic container styling */
+.basic-container{
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.basic-container-2{
+    display: block;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
 
 /* Header styling */
 header{

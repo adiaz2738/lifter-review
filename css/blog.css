@@ -1,0 +1,49 @@
+/* Font styling */
+.post-title{
+    font-family: "Century Gothic";
+    font-size: 18px;
+}
+
+.section-heading{
+    padding-bottom: 20px;
+}
+
+/* Post container styling */
+.basic-container-2{
+    padding-top: 50px;
+}
+
+.post-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.blog-item{
+    width: 300px;
+    color: black;
+}
+
+.post-txt{
+    padding-top: 10px;
+}
+
+/* Media query for 800px screen or less */
+@media only screen and (max-width: 1000px){
+    .post-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-items: center;
+    }
+}
+
+/* Media query for 650px screen or less */
+@media only screen and (max-width: 650px){
+    .post-row{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+}

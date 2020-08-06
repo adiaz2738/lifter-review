@@ -1,0 +1,27 @@
+/* Container styling */
+.essential-item-container{
+    display: flex;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.essential-item{
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
+    height: 250px;
+}
+
+.essential-item .img-insert{
+    display: flex;
+    width: auto;
+    height: 90%;
+}
+
+.essential-item .main-txt{
+    height: 10%;
+    text-align: center;
+    color: black;
+}
