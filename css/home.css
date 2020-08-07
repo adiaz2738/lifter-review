@@ -1,10 +1,11 @@
-/* Styling for events showcase */
+/* Styling for featured blogs event showcase */
 .events-showcase{
     display: flex;
     width: 100%;
     height: auto;
     padding: 20px 0px 20px 0px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .events-showcase .event-item{
