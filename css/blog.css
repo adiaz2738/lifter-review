@@ -16,11 +16,12 @@
 .post-row{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 16px;
 }
 
 .blog-item{
-    width: 300px;
+    width: 100%;
     color: black;
 }
 
@@ -33,6 +34,7 @@
     .post-row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-gap: 20px;
         justify-items: center;
     }

@@ -8,8 +8,9 @@
 
 /* :root preset styling settings */
 :root{
-    --shadow-black: 5px -2px 8px rgba(0, 0, 0, 0.8);
-    --overlay-color: rgba(24, 29, 51, 0.85);
+    --primary-color: rgba();
+    --shadow-black: 5px -2px 8px rgba(0, 0, 0, 0.75);
+    --overlay-color: rgba(0, 0, 0, 0.85);
     --menu-speed: 0.75s;
 }
 
@@ -18,6 +19,17 @@
     display: block;
     width: 80%;
     margin: 0 auto; 
+    padding-bottom: 50px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 /* Button styling */
@@ -81,7 +93,7 @@ h1{
     font-size: 18px;
     line-height: 35px;
     color: white;
-    text-shadow: var(--shadow-black)
+    text-shadow: var(--shadow-black);
 }
 
 .detail-txt{
@@ -115,7 +127,16 @@ header{
     display: flex;
     width: 100%;
     height: 130px;
+    /* background-color: var(--overlay-color); */
+}
+
+hr{
+    display: block;
+    border: 0;
     background-color: black;
+    height: 1px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .header-icons{
@@ -126,12 +147,13 @@ header{
 }
 
 .header-icons a{
-    color: white;
+    color: black;
     padding: 15px;
 }
 
 .header-logo{
     display: flex;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -163,7 +185,7 @@ nav ul{
 nav ul a{
     font-family: "Montserrat";
     font-size: 18px;
-    color: white;
+    color: black;
     flex: auto;
     padding: 10px;
 }
@@ -177,8 +199,8 @@ footer{
     display: block;
     width: 100%;
     height: 80px;
-    background-color: black;
-    margin-top: 50px;
+    background-color: white;
+    margin-top: auto;
 }
 
 .copyright-info{
@@ -190,7 +212,7 @@ footer{
 }
 
 .copyright-info .info-text{
-    color: white;
+    color: black;
 }
 
 .menu-wrap{
@@ -237,7 +259,7 @@ footer{
         width: 30px;
         height: 30px;
         padding: 16px;
-        /* background: var(--primary-color); */
+        /* background-color: var(--overlay-color); */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -248,7 +270,7 @@ footer{
         position: relative;
         width: 100%;
         height: 2px;
-        background-color: white;
+        background-color: black;
         align-items: center;
         justify-content: center;
         transition: all 0.4s ease;
@@ -274,7 +296,7 @@ footer{
     /* Toggler animate */
     .menu-wrap .toggler:checked + .hamburger > div{
         transform: rotate(135deg);
-
+        background-color: white;
     }
 
     /* Turn lines into X */
@@ -282,6 +304,7 @@ footer{
     .menu-wrap .toggler:checked + .hamburger > div:after{
         top: 0;
         transform: rotate(90deg);
+        background-color: white;
     }
 
     /* Rotate on hover when checked */

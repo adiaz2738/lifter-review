@@ -10,7 +10,26 @@
 </head>
 <body>
     <header>
-        <!-- Add links to the header icons; personal Instagram, Amazon Affiliate link to shopping list, and ___ -->
+    <!-- Hamburger menu section for the mobile version of the website -->
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="https://www.instagram.com/lifterreview/" target="_blank" title="Follow my Instagram"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://open.spotify.com/playlist/2LmkPobKxHrgaxHvgSTxni?si=Ro7nD1nHSOC1v_ml6JOB5A" target="_blank" title="Spotify gym playlist link"><i class="fab fa-spotify fa-2x"></i></a></li>
+                            <li><a href="gym-essentials-list.html" title="Gym Essentials List"><i class="fas fa-dumbbell fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add links to the header icons; personal Instagram, Spotify gym playlist, and gym essentials list -->
         <div class="header-icons">
             <a href="https://www.instagram.com/lifterreview/" target="_blank" title="Follow my Instagram"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="https://open.spotify.com/playlist/2LmkPobKxHrgaxHvgSTxni?si=Ro7nD1nHSOC1v_ml6JOB5A" target="_blank" title="Spotify gym playlist link"><i class="fab fa-spotify fa-2x"></i></a>
@@ -18,7 +37,7 @@
         </div>
         <div class="header-logo">
             <a href="index.html" class="logo-container">
-                <img src="img/lifter-review-logo-vector.svg" alt="Vector image Lifter Review logo">
+                <img src="img/lifter-review-logo-vector-black.svg" alt="Vector image Lifter Review logo">
             </a>
         </div>
         <nav>
