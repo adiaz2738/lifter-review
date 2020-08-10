@@ -63,6 +63,7 @@ img{
     width: 100%;
     height: auto;
     margin: 0 auto;
+    /* box-shadow: 2px 2px 8px black; */
 }
 
 /* Main text styling */

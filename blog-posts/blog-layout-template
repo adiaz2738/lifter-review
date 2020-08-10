@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/blog-post.css">
+    <link rel="icon" href="img/lifter-review-logo-vector.svg">
+    <script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
+
+    <!-- Specific page styling -->
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+    <!-- Hamburger menu section for the mobile version of the website -->
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about.html">About</a></li>
+                            <li><a href="../blog.html">Blog</a></li>
+                            <li><a href="https://www.instagram.com/lifterreview/" target="_blank" title="Follow my Instagram"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://open.spotify.com/playlist/2LmkPobKxHrgaxHvgSTxni?si=Ro7nD1nHSOC1v_ml6JOB5A" target="_blank" title="Spotify gym playlist link"><i class="fab fa-spotify fa-2x"></i></a></li>
+                            <li><a href="../gym-essentials-list.html" title="Gym Essentials List"><i class="fas fa-dumbbell fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add links to the header icons; personal Instagram, Spotify gym playlist, and gym essentials list -->
+        <div class="header-icons">
+            <a href="https://www.instagram.com/lifterreview/" target="_blank" title="Follow my Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://open.spotify.com/playlist/2LmkPobKxHrgaxHvgSTxni?si=Ro7nD1nHSOC1v_ml6JOB5A" target="_blank" title="Spotify gym playlist link"><i class="fab fa-spotify fa-2x"></i></a>
+            <a href="../gym-essentials-list.html" title="Gym Essentials List"><i class="fas fa-dumbbell fa-2x"></i></a>
+        </div>
+        <div class="header-logo">
+            <a href="../index.html" class="logo-container">
+                <img src="../img/lifter-review-logo-vector-black.svg" alt="Vector image Lifter Review logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <a href="../index.html"><li>Home</li></a>
+                <a href="../about.html"><li>About</li></a>
+                <a href="../blog.html"><li>Blog</li></a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="wrapper">
+            <h2 class="section-heading"></h2>
+            <p class="detail-txt"></p>
+            <p><i>Written By: Anthony Diaz</i></p>
+            <div class="img-container">
+                <img src="" alt="" class="img-insert">
+            </div>
+            <article>
+                <p class="main-txt"></p>
+                <br>
+                <!-- Resouces section -->
+                <section id="resources">
+                    <h2 class="title-txt" id="resources-title-txt">Resources</h2>
+                    <ul>
+                        <li>
+                            <a href="" class="link" target="_blank"></a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="copyright-info">
+            <p class="info-text">Copyright &copy Fitness Review 2020</p>
+        </div>
+    </footer>
+</body>
+</html>

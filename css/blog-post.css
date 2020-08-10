@@ -1,0 +1,76 @@
+/* Common layout and dseign styling */
+br{
+    display: block;
+    margin: 20px 0px;
+}
+
+.link{
+    font-family: "Century Gothic";
+    font-size: 18px;
+    line-height: 35px;
+    color: rgb(0, 141, 235);
+}
+
+.title-container{
+    text-align: center;
+}
+
+.section-heading{
+    padding: 20px;
+}
+
+article{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Image styling */
+.heading-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    box-shadow: 2px 2px 8px black;
+}
+
+article .img-insert{
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    margin: 20px auto;
+}
+
+/* List decoration for blog post */
+ol li{
+    list-style: decimal;
+}
+
+/* Resources elements and containers styling */
+#resources{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+#resources-title-txt{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#resources ul{
+    text-align: center;
+}
+
+#resources ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+/* Media queries for blog posts */
+@media only screen and (max-width: 1000px){
+    article{
+        width: 90%;
+    }
+}
