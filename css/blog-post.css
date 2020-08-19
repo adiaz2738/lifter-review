@@ -4,6 +4,11 @@ br{
     margin: 20px 0px;
 }
 
+/* Text styling */
+.title-txt{
+    padding-bottom: 10px;
+}
+
 .link{
     font-family: "Century Gothic";
     font-size: 18px;

@@ -35,8 +35,6 @@ body{
 /* Button styling */
 .btn{
     display: block;
-    width: auto;
-    height: auto;
     text-align: center;
     padding: 20px;
     background-color: black;

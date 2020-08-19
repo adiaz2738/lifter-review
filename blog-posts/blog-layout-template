@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../css/blog-post.css">
     <link rel="icon" href="img/lifter-review-logo-vector.svg">
     <script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f3c2ab0b19f8895"></script>
+
 
     <!-- Specific page styling -->
     <style>
@@ -58,13 +61,18 @@
 
     <main>
         <div class="wrapper">
-            <h2 class="section-heading"></h2>
-            <p class="detail-txt"></p>
-            <p><i>Written By: Anthony Diaz</i></p>
-            <div class="img-container">
-                <img src="" alt="" class="img-insert">
-            </div>
             <article>
+                <!-- Blog title content -->
+                <div class="title-container">
+                    <h2 class="section-heading"></h2>
+                    <p class="detail-txt"></p>
+                    <p><i>Written By: Anthony Diaz</i></p>
+                </div>
+                <div class="img-container">
+                    <img src="" alt="" class="heading-img">
+                </div>
+                <br>
+                <!-- Main content for the blog post -->
                 <p class="main-txt"></p>
                 <br>
                 <!-- Resouces section -->
